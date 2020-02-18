@@ -1,0 +1,81 @@
+1.3
+-ambiente globale  passaggio
+
+x=1                    1
+g=funzione()           2
+
+-ambiente if
+
+x=4                    3
+f=funzione()           4
+z=?                    5
+
+z=9                   11
+
+-ambiente g
+
+let h=f;              6
+x=2;                  7
+return 7+x=7+2=9      10
+
+-ambiente f
+
+let y=3;              8
+return 7              9
+
+--------------------------------------------
+1.4
+
+-Ambiente globale        passaggio
+
+x=1                       1
+F=funzione()              2
+gg= chiama F()->g         3
+
+gg=g                      5
+z=gg?
+
+gg=2                      8
+z=2                       9
+
+-ambiente f
+
+g=funzione()              4
+
+-ambiente g
+
+return x+1=2              6
+g=2                       7
+
+---------------------------------------------
+
+ambiente globale                                     passaggio
+
+definisco array v                                         1
+i=0                                                       2
+foo=funzione()                                            3
+cambio valore in posizione 
+2 diventa 12(si parte da 1)                               4
+foo(V[i+1])=chiamata di foo(V[0+1]
+= foo(12(si prendesecondo parametro array))               5
+elemento in posizione 2 array diventa 13                  8
+
+ambiente foo
+
+x=12                                                      6
+return 13                                                 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
