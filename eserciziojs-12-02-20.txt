@@ -14,7 +14,7 @@ z=9                   11
 
 -ambiente g
 
-let h=f;              6
+let h=f();              6
 x=2;                  7
 return 7+x=7+2=9      10
 
